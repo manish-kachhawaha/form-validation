@@ -1,0 +1,28 @@
+*{
+    background-color: black;
+
+}
+
+.f-input{
+
+    
+    display: block;
+    width: 50%;
+    height: 50px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 170, 255);
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    align-items: center;
+    font-family: Kanit;
+}
+
+#f-submit{
+    width: 15%;
+}
+.f-div{
+    display: flex;
+    color: red;
+}

@@ -4,13 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my form</title>
-
     <link rel="stylesheet" href="style.css">
+
+    </style>
 
 </head>
 <body>
     
     <h1>My form</h1>
-    form#net
+    <form action="" name="my-form" onsubmit="return validateForm()" >
+        <div class="f-div">
+            <input type="text" name="name" id="f-name" class="f-input" placeholder="enter the name">
+            <span id="f-name-error" class="f-error"></span>
+        </div>
+
+        <div class="f-div">
+            <input type="email" name="email" id="f-email" class="f-input" placeholder="enter the email">
+            <span id="f-email-error" class="f-error"></span>
+        </div>
+
+        <div class="f-div">
+            <input type="tel" name="phone" id="f-phone" class="f-input" placeholder="enter the phone">
+            <span id="f-phone-error" class="f-error"></span>
+        </div>
+
+        <div class="f-div">
+            <textarea name="message" id="f-message" class="f-input" placeholder="enter the message"></textarea>
+            <span id="f-message-error" class="f-error"></span>
+        </div>
+
+        <input type="submit" id="f-submit" class="f-input">
+        
+        
+
+
+    </form>
+
+    <script  src="script.js"></script>
 </body>
 </html>
